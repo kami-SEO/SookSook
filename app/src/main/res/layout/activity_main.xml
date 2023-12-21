@@ -11,6 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="클린용버튼"/>
+    
+    <Button
+        android:id="@+id/smallBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
 
 
