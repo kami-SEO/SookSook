@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             //주석 ctrl + /
 //            {}안의 코드만 눌렀을 때 실행
             Log.d("메인화면로그", "클릭용버튼으로 눌림")
+            Log.e("메인화면로그","에러관련")
         }
         binding.smallBtn
     }
