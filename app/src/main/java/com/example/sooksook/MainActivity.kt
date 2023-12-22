@@ -15,6 +15,27 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val myName = "코딩왕" //변수 생성 대입 바로 값 대입 자료형이 자동으로 결정
+        Log.d("변수값",myName)
+
+        //문법 변수
+//        val myname : String //value 상수 변동불가 Variable 변수 변동가능
+//        var myAge : Int
+//         double boolean
+
+        //문법 조건문
+        val userAge = 18
+        if (userAge>=20){
+            Log.d("성인판별", "성인입니다")
+        }
+        else if(userAge>=17){
+            Log.d("성인판별","고등학생이다.")
+        }
+        else if(userAge>=14){
+            Log.d("성인판별","중학생이다.")
+        else{
+            Log.d("성인판별", "성인이 아닙니다.")
+        }
 
 
         binding.clkBtn.setOnClickListener {
